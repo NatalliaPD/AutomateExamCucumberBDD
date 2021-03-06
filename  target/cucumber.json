@@ -1,0 +1,113 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 139237300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Set White Background button exists",
+            "match": {
+              "location": "SetWhiteSteps.set_white_background_button_exists()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4199462800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetSkyBlueSteps.beforeRun()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3521386400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetWhiteSteps.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "user should be able to change background color to white",
+        "description": "",
+        "id": "validate-non-functional-aspect-of-background-color-on-techfios-test-webpage;user-should-be-able-to-change-background-color-to-white",
+        "after": [
+          {
+            "result": {
+              "duration": 681388400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetSkyBlueSteps.afterRun()"
+            }
+          },
+          {
+            "result": {
+              "duration": 670857800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetWhiteSteps.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2052144700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press the button",
+            "match": {
+              "location": "SetWhiteSteps.i_press_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 328722700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky white",
+            "match": {
+              "location": "SetWhiteSteps.the_background_color_will_change_to_sky_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate non-functional aspect of background color on techfios test webpage",
+    "description": "",
+    "id": "validate-non-functional-aspect-of-background-color-on-techfios-test-webpage",
+    "keyword": "Feature",
+    "uri": "features/SetColorWhite.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SetColorWhite"
+      }
+    ]
+  }
+]
